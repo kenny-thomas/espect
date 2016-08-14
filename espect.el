@@ -133,10 +133,6 @@ ARGS is the argument list to apply to the rule."
           (lambda () (espect-apply-buffer-settings espect-buffer-settings))
           'append)
 
-(add-hook 'change-major-mode-hook
-          (lambda () (espect-apply-buffer-settings espect-buffer-settings))
-          'append)
-
 (provide 'espect)
 
 ;;; espect.el ends here
